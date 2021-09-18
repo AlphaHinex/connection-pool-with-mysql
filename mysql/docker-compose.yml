@@ -1,0 +1,10 @@
+mysql:
+  image: mysql:5.7.34
+  environment:
+    - MYSQL_ROOT_PASSWORD=3426
+    - MYSQL_DATABASE=test
+    - MYSQL_USER=alpha
+    - MYSQL_PASSWORD=hinex
+  command: --wait_timeout=35
+  ports:
+    - "3426:3306"
