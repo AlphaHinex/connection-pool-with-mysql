@@ -58,3 +58,5 @@ HikariCP could keep connected threads alive.
 
 Druid
 -----
+
+Change directory to pools/druid, and use commands as above.
