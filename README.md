@@ -22,7 +22,7 @@ owners.
 
 Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-mysql> show status like 'Threads%';
+mysql> show status like 'Threads_connected';
 +-------------------+-------+
 | Variable_name     | Value |
 +-------------------+-------+
