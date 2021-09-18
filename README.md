@@ -26,12 +26,9 @@ mysql> show status like 'Threads_connected';
 +-------------------+-------+
 | Variable_name     | Value |
 +-------------------+-------+
-| Threads_cached    | 1     |
 | Threads_connected | 3     |
-| Threads_created   | 4     |
-| Threads_running   | 1     |
 +-------------------+-------+
-4 rows in set (0.00 sec)
+1 rows in set (0.00 sec)
 ```
 
 Check `Threads_connected` value.
